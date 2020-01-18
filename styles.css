@@ -3,13 +3,23 @@ html, body {
     font-family: sans-serif;
 }
 .down-arrow-image{
-    background-image: url("candado.png");
-    background-size: 25rem 25rem;
+    background-image: url(arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 3rem;
     order: 4;
+    padding-left: 4rem;
+    width: 5rem;
 }
 .lock-image{
-    background-image: url("candado.png");
-    order: 2;
+    background-image: url(candado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 6rem;
+    order: 1;
+    width: 4rem;
 }
 .title{
     color: rgba(0, 160,155,255);
@@ -19,33 +29,61 @@ html, body {
 .subtitle{
     color: rgba(189,189,189,221);
     font-size: 4rem;
+    padding-left: 10rem;
+    padding-top: 1rem;
     /*position: relative;*/
 }
 .passwords{
     color: rgba(0,196,192,255);
     font-size: 3rem;
+    order: 3;
+    padding-left: 18rem;
     /*position: relative;*/
 }
 .username{
     color: rgba(0,160,155,255);
     font-size: 5rem;
+    order: 2;
+    padding-left: 2rem;
     /*position: relative;*/
 }
 .header{
-    background-color: papayawhip;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 25rem;
 }
 
 .info{
+    align-items: center;
     display: flex;
-    order: 2;
-    padding: 10rem;
+    order: 1;
+    padding-left: 10rem;
+
 }
 
 .user-info{
+    align-items: center;
     display: flex;
-    order: 3;
-    padding: 10rem;
+    order: 2;
+}
+
+.packs{
+    background-color: papayawhip;
+    height: 166rem;
+    margin-left: 12rem;
+    width: 78rem;
+}
+.packs-title{
+    font-size: 3rem;
+    padding-left: 11rem;
+    padding-top: 9rem;
+}
+.grade-name{
+    font-size: 3rem;
+    padding-left: 11rem;
+    padding-top: 9rem;
+}
+.line{
+    border-bottom: 0.5rem solid black;
+    
 }
