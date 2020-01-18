@@ -1,0 +1,51 @@
+html, body {
+    font-size: 4px;
+    font-family: sans-serif;
+}
+.down-arrow-image{
+    background-image: url("candado.png");
+    background-size: 25rem 25rem;
+    order: 4;
+}
+.lock-image{
+    background-image: url("candado.png");
+    order: 2;
+}
+.title{
+    color: rgba(0, 160,155,255);
+    font-size: 6rem;
+    /*position: relative;*/
+}
+.subtitle{
+    color: rgba(189,189,189,221);
+    font-size: 4rem;
+    /*position: relative;*/
+}
+.passwords{
+    color: rgba(0,196,192,255);
+    font-size: 3rem;
+    /*position: relative;*/
+}
+.username{
+    color: rgba(0,160,155,255);
+    font-size: 5rem;
+    /*position: relative;*/
+}
+.header{
+    background-color: papayawhip;
+    display: flex;
+    justify-content: space-around;
+    height: 25rem;
+}
+
+.info{
+    display: flex;
+    order: 2;
+    padding: 10rem;
+}
+
+.user-info{
+    display: flex;
+    order: 3;
+    padding: 10rem;
+}
