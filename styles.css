@@ -2,6 +2,12 @@ html, body {
     font-size: 4px;
     font-family: sans-serif;
 }
+
+.big-background{
+    background-color: rgba(0,160,155,255);
+    display: flex;
+    height: 205rem;
+}
 .down-arrow-image{
     background-image: url(arrow.png);
     background-position: center;
@@ -9,7 +15,7 @@ html, body {
     background-size: contain;
     height: 3rem;
     order: 4;
-    padding-left: 4rem;
+    padding-left: 10rem;
     width: 5rem;
 }
 .lock-image{
@@ -36,15 +42,15 @@ html, body {
 .passwords{
     color: rgba(0,196,192,255);
     font-size: 3rem;
-    order: 3;
-    padding-left: 18rem;
+    order: 2;
+    padding-left: 2rem;
     /*position: relative;*/
 }
 .username{
     color: rgba(0,160,155,255);
     font-size: 5rem;
-    order: 2;
-    padding-left: 2rem;
+    order: 3;
+    padding-left: 18rem;
     /*position: relative;*/
 }
 .header{
@@ -68,12 +74,16 @@ html, body {
 }
 
 .packs{
-    background-color: papayawhip;
+    background-color: white;
+    border-radius: 5rem;
     height: 166rem;
+    margin-top: 13rem;
     margin-left: 12rem;
+    order: 1;
     width: 78rem;
 }
 .packs-title{
+    color: grey;
     font-size: 3rem;
     padding-left: 11rem;
     padding-top: 9rem;
@@ -83,7 +93,144 @@ html, body {
     padding-left: 11rem;
     padding-top: 9rem;
 }
-.line{
-    border-bottom: 0.5rem solid black;
-    
+
+.selected{
+    color: rgba(0, 160,155,255);
+    font-weight: bold;
+    text-decoration: underline;
 }
+.line{
+    border-bottom: 0.5rem solid grey;
+    padding-top: 8rem;
+}
+
+.new-pack-title{
+    color: rgba(0,160,155,255);
+    font-size: 3rem;
+    order: 1;
+    padding-left: 11rem;
+    padding-top: 11rem;
+}
+
+.new-pack-input{
+    order: 2;
+    position: relative;
+}
+
+.new-pack-field{
+    color: rgba(192,192,192,255);
+    font-size: 3rem;
+    margin-left: 12rem;
+    margin-top: 9rem;
+    position: absolute;
+    z-index: 2;
+}
+
+.new-pack-color{
+    background-color: rgb(240,240,240);
+    border-radius: 15rem;
+    height: 12rem;
+    margin-left: 7rem;
+    margin-top: 5rem;
+    position: absolute;
+    width: 50rem;
+    z-index: 1;
+}
+.new-pack-symbol{
+    background-image: url(arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 13rem;
+    margin-left: 60rem;
+    margin-top: 5rem;
+    width: 13rem;
+    z-index: 3;
+}
+
+.new-packs{
+    display: flex;
+    flex-direction: column;
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+.book-header{
+    display: flex;
+    margin-left: 23rem;
+    margin-top: 17rem;
+}
+.grade-title{
+    order: 1;
+    font-size: 8rem;
+    padding-right: 7rem;
+}
+.book-symbol{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 6rem;
+    order: 2;
+    padding-top: 3rem;
+    width: 6rem;
+}
+.delete-symbol{
+    background-image: url(arrow.png);
+}
+.write-symbol{
+    background-image: url(candado.png);
+    margin-left: 4rem;
+    margin-right: 149rem;
+}
+.book-buttons{
+    font-size: 2rem;
+    order: 3;
+    position: relative;
+}
+.new-button-text{
+    color: white;
+    font-size: 3rem;
+    padding-top: 5rem;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.new-book-text{
+    padding-left: 17rem;
+}
+
+.new-category-text{
+    padding-left: 72rem;
+}
+
+.new-background{
+    border-radius: 15rem;
+    height: 12rem;
+    position: absolute;
+    width: 52rem;
+    z-index: 1;
+}
+
+.green{
+    background-color: #00bc5d;
+}
+.teal{
+    background-color: #00bcb7;
+    margin-left: 58rem;
+}
+
+.book-languages{
+    background-color: powderblue;
+    display: flex;
+    margin-left: 23rem;
+}
+
+.book-language{
+    font-size: 3rem;
+    order: 2;
+}
+
