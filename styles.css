@@ -137,14 +137,14 @@ html, body {
     z-index: 1;
 }
 .new-pack-symbol{
-    background-image: url(arrow.png);
+    background-image: url(plus.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 13rem;
-    margin-left: 60rem;
-    margin-top: 5rem;
-    width: 13rem;
+    height: 17rem;
+    margin-left: 56rem;
+    margin-top: 2rem;
+    width: 17rem;
     z-index: 3;
 }
 
